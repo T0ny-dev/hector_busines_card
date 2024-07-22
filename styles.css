@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.card-content {
+  padding-top: 5vh;
+  width: 100%;
+  background-image: url("./img/background.png");
+  background-size: cover;
+  text-align: center;
+  height: 85%;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.position {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons a {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  color: #fff;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #fff;
+  color: #6daa52;
+  font-weight: 600;
+  justify-content: flex-start;
+}
+
+.button:hover {
+  width: 82%;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-image {
+  width: 50%;
+}
+
+.copyright {
+  text-align: right;
+  margin-top: 10px;
+}
